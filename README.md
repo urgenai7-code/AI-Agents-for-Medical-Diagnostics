@@ -41,18 +41,20 @@ In future versions, the system could expand to include a broader range of AI age
 
 1. Set up environment
 
-    # clone
+    ## clone
     git clone https://github.com/ahmadvh/AI-Agents-for-Medical-Diagnostics.git
     cd AI-Agents-for-Medical-Diagnostics
 
-    # (recommended) create venv
+    ## (recommended) create venv
     python -m venv .venv
-    # macOS/Linux
+    
+    ## macOS/Linux
     source .venv/bin/activate
-    # Windows
+    
+    ## Windows
     .\.venv\Scripts\activate
 
-    # install deps
+    install deps
     pip install --upgrade pip
     pip install -r requirements.txt
 
@@ -84,11 +86,11 @@ In future versions, the system could expand to include a broader range of AI age
 
 5. Swap models (optional)
 
-    # example only—adjust to the exact variable in Main.py
+    ## example only—adjust to the exact variable in Main.py
     model_name = "gpt-4o"          # default per README
-    # alternatives
-    # model_name = "gpt-4o-mini"
-    # model_name = "gpt-4.1-mini"
+    ## alternatives
+    ## model_name = "gpt-4o-mini"
+    ## model_name = "gpt-4.1-mini"
 
 6. Run with your own medical report
 
